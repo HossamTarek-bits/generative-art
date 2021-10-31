@@ -2,7 +2,7 @@
     "name": "generative-art",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://hossamtarek-bits.github.io/generative-art",
+    "homepage": "https://hossamtarek-bits.github.io/generative-art/",
     "dependencies": {
         "bootstrap": "^5.1.3",
         "react": "^17.0.2",

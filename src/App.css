@@ -6,6 +6,12 @@ a {
     color: aliceblue !important;
 }
 
+.collapsed {
+    border-color: aliceblue !important;
+    background-color: aliceblue !important;
+    padding: 8px 10px !important;
+}
+
 .App {
     position: absolute;
     left: 50%;

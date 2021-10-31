@@ -16,7 +16,7 @@
         "use-tweaks": "^0.3.1"
     },
     "scripts": {
-        "predeploy": "npm run-scripts build",
+        "predeploy": "npm run-script build",
         "deploy": "generative-art -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",

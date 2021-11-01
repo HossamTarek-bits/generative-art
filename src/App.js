@@ -1,6 +1,7 @@
 import "./App.css";
 import { Sketch01 } from "./sketches/sketch01";
 import { Sketch02 } from "./sketches/sketch02";
+import { Sketch03 } from "./sketches/sketch03";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 const App = () => {
@@ -20,6 +21,9 @@ const App = () => {
                             <Nav.Link href="/generative-art/sketch02">
                                 Sketch02
                             </Nav.Link>
+                            <Nav.Link href="/generative-art/sketch03">
+                                Sketch03
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
@@ -38,6 +42,9 @@ const App = () => {
                         </Route>
                         <Route exact={true} path="/generative-art/sketch02">
                             <Sketch02 />
+                        </Route>
+                        <Route exact={true} path="/generative-art/sketch03">
+                            <Sketch03 />
                         </Route>
                     </Switch>
                 </Router>

@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/generative-art/static/css/main.f8f2530c.chunk.css",
-    "main.js": "/generative-art/static/js/main.37692c6f.chunk.js",
-    "main.js.map": "/generative-art/static/js/main.37692c6f.chunk.js.map",
+    "main.js": "/generative-art/static/js/main.a4eae9c6.chunk.js",
+    "main.js.map": "/generative-art/static/js/main.a4eae9c6.chunk.js.map",
     "runtime-main.js": "/generative-art/static/js/runtime-main.d1b377af.js",
     "runtime-main.js.map": "/generative-art/static/js/runtime-main.d1b377af.js.map",
     "static/css/2.0a9ec390.chunk.css": "/generative-art/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.dfaf14c7.chunk.js": "/generative-art/static/js/2.dfaf14c7.chunk.js",
-    "static/js/2.dfaf14c7.chunk.js.map": "/generative-art/static/js/2.dfaf14c7.chunk.js.map",
+    "static/js/2.7e4300e8.chunk.js": "/generative-art/static/js/2.7e4300e8.chunk.js",
+    "static/js/2.7e4300e8.chunk.js.map": "/generative-art/static/js/2.7e4300e8.chunk.js.map",
     "index.html": "/generative-art/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/generative-art/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.f8f2530c.chunk.css.map": "/generative-art/static/css/main.f8f2530c.chunk.css.map",
-    "static/js/2.dfaf14c7.chunk.js.LICENSE.txt": "/generative-art/static/js/2.dfaf14c7.chunk.js.LICENSE.txt"
+    "static/js/2.7e4300e8.chunk.js.LICENSE.txt": "/generative-art/static/js/2.7e4300e8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d1b377af.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.dfaf14c7.chunk.js",
+    "static/js/2.7e4300e8.chunk.js",
     "static/css/main.f8f2530c.chunk.css",
-    "static/js/main.37692c6f.chunk.js"
+    "static/js/main.a4eae9c6.chunk.js"
   ]
 }

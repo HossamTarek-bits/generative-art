@@ -28,17 +28,18 @@ export const Sketch04 = () => {
     });
     
     const sketch = (p5) => {
-        const size = p5.windowHeight * 0.8;
+      let width = p5.windowWidth * 0.9;
+      let height = p5.windowHeight * 0.9;
 
         p5.setup = function () {
-            p5.createCanvas(size, size);
+            p5.createCanvas(width, height);
             p5.strokeWeight(strokeWeight);
             
             p5.stroke(color)
             p5.fill(0,0,0)
             const offset = 2
             let startSteps;
-            const tileStep = (size - offset * 2) / 7;
+            const tileStep = (height - offset * 2) / 7;
             const startSize = tileStep;
             const directions = [-1, 0, 1];
 
@@ -56,8 +57,8 @@ export const Sketch04 = () => {
               }
             }
 
-            for( var x = offset; x < size - offset; x += tileStep) {
-              for( var y = offset; y < size - offset; y += tileStep) {
+            for( var x = offset; x < width - offset; x += tileStep) {
+              for( var y = offset; y < height - offset; y += tileStep) {
                 startSteps = minStartSteps + Math.ceil(Math.random() * maxStartSteps)
                 var xDirection = directions[Math.floor(Math.random() * directions.length)]
                 var yDirection = directions[Math.floor(Math.random() * directions.length)]

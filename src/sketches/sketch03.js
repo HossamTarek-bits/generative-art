@@ -1,4 +1,3 @@
-import { delay } from "q";
 import { ReactP5Wrapper } from "react-p5-wrapper";
 import { useTweaks } from "use-tweaks";
 export const Sketch03 = () => {
@@ -29,19 +28,20 @@ export const Sketch03 = () => {
         }
     }
     const sketch = (p5) => {
-        const size = p5.windowHeight * 0.8;
+        let width = p5.windowWidth * 0.9;
+        let height = p5.windowHeight * 0.9;
         const minRadius = 5;
         // const maxRadius = 3000;
         const createCircleAttempts = 300;
-        const totalCircles = size;
+        const totalCircles = height;
         const circles = [];
         function createAndDrawCircle() {
             let newCircle;
             let circleSafeToDraw = false;
             for (let tries = 0; tries < createCircleAttempts; tries++) {
                 newCircle = new Circle(
-                    Math.floor(Math.random() * size),
-                    Math.floor(Math.random() * size),
+                    Math.floor(Math.random() * width),
+                    Math.floor(Math.random() * height),
                     minRadius,
                     color,
                     strokeWeight
@@ -90,14 +90,14 @@ export const Sketch03 = () => {
             }
 
             if (
-                circle.x + circle.radius >= size ||
+                circle.x + circle.radius >= width ||
                 circle.x - circle.radius <= 0
             ) {
                 return true;
             }
 
             if (
-                circle.y + circle.radius >= size ||
+                circle.y + circle.radius >= height ||
                 circle.y - circle.radius <= 0
             ) {
                 return true;
@@ -107,7 +107,7 @@ export const Sketch03 = () => {
         }
 
         p5.setup = function () {
-            p5.createCanvas(size, size);
+            p5.createCanvas(width, height);
             for (let i = 0; i < totalCircles; i++) {
                 createAndDrawCircle();
             }

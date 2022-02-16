@@ -13,8 +13,8 @@ export const Sketch01 = () => {
         color: colors[Math.floor(Math.random() * 3)],
     });
     function sketch(p5) {
-        let width = p5.windowHeight * 0.7;
-        let height = p5.windowHeight * 0.7;
+        let width = p5.windowWidth * 0.9;
+        let height = p5.windowHeight * 0.9;
         const draw = (p5, x, y, width, height) => {
             const leftToRight = p5.random([false, true]);
             p5.stroke(color);
@@ -34,8 +34,6 @@ export const Sketch01 = () => {
 
         p5.draw = function () {};
     }
-
-    // let myp5 = p5(s, "canvas");
 
     return <ReactP5Wrapper sketch={sketch} />;
 };

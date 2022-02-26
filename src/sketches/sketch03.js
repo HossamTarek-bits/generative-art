@@ -28,8 +28,8 @@ export const Sketch03 = () => {
         }
     }
     const sketch = (p5) => {
-        let width = p5.windowWidth * 0.9;
-        let height = p5.windowHeight * 0.9;
+        const width = p5.windowWidth * 0.6;
+        const height = p5.windowHeight * 0.6;
         const minRadius = 5;
         // const maxRadius = 3000;
         const createCircleAttempts = 300;

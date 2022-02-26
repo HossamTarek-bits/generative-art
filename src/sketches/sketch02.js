@@ -20,8 +20,8 @@ export const Sketch02 = () => {
         });
 
     const sketch = (p5) => {
-        let width = p5.windowWidth * 0.9;
-        let height = p5.windowHeight * 0.9;
+        const width = p5.windowWidth * 0.6;
+        const height = p5.windowHeight * 0.6;
         const points = [];
 
         p5.setup = function () {

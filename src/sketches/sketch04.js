@@ -28,8 +28,8 @@ export const Sketch04 = () => {
     });
     
     const sketch = (p5) => {
-      let width = p5.windowWidth * 0.9;
-      let height = p5.windowHeight * 0.9;
+      let width = p5.windowWidth * 0.6;
+      let height = p5.windowHeight * 0.6;
 
         p5.setup = function () {
             p5.createCanvas(width, height);

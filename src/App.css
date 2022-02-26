@@ -19,3 +19,13 @@ a {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+.best {
+    font-size: 20px;
+    color: #fff;
+  }
+
+
+  .tp-dfwv{
+      width: 400px !important;
+  }

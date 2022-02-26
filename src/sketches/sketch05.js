@@ -54,8 +54,8 @@ export const Sketch05 = () => {
     }
 
     function sketch(p5) {
-        const width = p5.windowWidth * 0.9;
-        const height = p5.windowHeight * 0.9;
+        const width = p5.windowWidth * 0.6;
+        const height = p5.windowHeight * 0.6;
         const pos = p5.createVector(Math.floor(width/2),Math.floor(height/2));
         
         p5.setup = function () {

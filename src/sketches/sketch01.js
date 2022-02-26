@@ -13,8 +13,8 @@ export const Sketch01 = () => {
         color: colors[Math.floor(Math.random() * 3)],
     });
     function sketch(p5) {
-        let width = p5.windowWidth * 0.9;
-        let height = p5.windowHeight * 0.9;
+        const width = p5.windowWidth * 0.6;
+        const height = p5.windowHeight * 0.6;
         const draw = (p5, x, y, width, height) => {
             const leftToRight = p5.random([false, true]);
             p5.stroke(color);
